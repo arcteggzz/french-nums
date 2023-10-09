@@ -81,14 +81,14 @@ const HomePage = () => {
         <button
           className={styles.create_button}
           onClick={handleSubmit}
-          disabled={userChoice === null}
+          disabled={userChoice === "--"}
         >
           Vérifier
         </button>
       </section>
 
       <section className={styles.form_container}>
-        <p>{outcomeIndicator ? "✅" : "❌"}</p>
+        <p>{outcomeIndicator === null ? "" : outcomeIndicator ? "✅" : "❌"}</p>
         <h4>
           Réponses correctes: <span>{streakCount}</span>
         </h4>
