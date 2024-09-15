@@ -1,10 +1,9 @@
-//pages
-import HomePage from "./pages/HomePage";
+import AllRoutes from "./routes";
 
 const App = () => {
   return (
     <>
-      <HomePage />
+      <AllRoutes />
     </>
   );
 };
