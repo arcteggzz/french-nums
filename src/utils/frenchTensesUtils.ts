@@ -30,15 +30,15 @@ export const subjectList = [
 
 export const verbTensesList = [
   {
-    title: "Present",
+    title: "Présent",
     value: "present",
   },
   {
-    title: "L'imperfait",
+    title: "L'imparfait",
     value: "imperfect",
   },
   {
-    title: "Passe Compose",
+    title: "Passé Composé",
     value: "perfect",
   },
   {
@@ -46,15 +46,15 @@ export const verbTensesList = [
     value: "futur",
   },
   {
-    title: "Subjonctif Present",
+    title: "Subjonctif Présent",
     value: "subjonctifPresent",
   },
   {
-    title: "Conditionnel Present",
+    title: "Conditionnel Présent",
     value: "conditionnelPresent",
   },
   {
-    title: "Plus Que Perfect",
+    title: "Plus-que-parfait",
     value: "plusQuePerfect",
   },
 ];
